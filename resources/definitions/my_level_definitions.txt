@@ -1,0 +1,58 @@
+# My Level
+# Level 1
+
+START_LEVEL
+level_name:Fast Car
+ball_velocities:0,5 -60,5 -45,5 -30,5 -15,5 15,5 30,5 45,5 60,5
+background:image(background_images/road.jpg)
+paddle_speed:10
+paddle_width:250
+block_definitions:definitions/road_defenitions.txt
+blocks_start_x:100
+blocks_start_y:130
+row_height:25
+num_blocks:151
+START_BLOCKS
+-------rrrrrrrrr
+------rwwwwrwwwws
+-----rwxxxxrxxxxws
+----rwxxxxxrxxxxxws
+----rxxxxxxrxxxxxxs
+-rrrrrrrrrrrrrrrrrrs
+rrrrrrrrrrrrrrrrrrrrs
+ossbbbsssssssssbbbsso
+nnnbnbnnnnnnnnnbnbnnn
+---bbb---------bbb
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+
+START_LEVEL
+level_name:The Wonderful Sea
+ball_velocities:0,5 -45,5 45,5
+background:image(background_images/dolphin.jpg)
+paddle_speed:10
+paddle_width:160
+block_definitions:definitions/dolphin_defenitions.txt
+blocks_start_x:100
+blocks_start_y:80
+row_height:25
+num_blocks:88
+START_BLOCKS
+----yyw
+-----wyy
+------yyw
+w-----wwow
+yw---ywwwoy
+-ww-yyywwooy
+-ywyyywwwobyy
+-ywyyywwwooyy
+-ww-yyywwooy
+yw---ywwwoy
+w-----wwow
+------yyw
+-----wyy
+----yyw
+END_BLOCKS
+END_LEVEL
